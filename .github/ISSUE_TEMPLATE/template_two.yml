@@ -1,0 +1,13 @@
+name: 🚀 建立 Try new way 任務
+description: 點擊此處建立自動歸類至 Try new way 的 Issue。
+title: "[新方法] "
+labels: ["ready-for-agent"]
+milestone: 2
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 任務詳細內容
+      placeholder: 請輸入新嘗試方法的具體實作方向...
+    validations:
+      required: true
